@@ -1,0 +1,74 @@
+/* importacao */
+
+@import './global.css';
+
+/* Codigo */
+
+section.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top, #1d0894, #01010f);
+}
+
+
+section.bio .foto img {
+    height: 150px;
+    width: 100%;
+    max-width: 500px;
+    border: 10px solid var(--color-blue);
+    border-radius: 15px;
+    box-shadow: 10px -5px 20px 0px var(--color-blue);
+}
+
+section.bio .links {
+    width: 100%;
+    max-width: 400px;
+}
+
+section.bio .links a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+section.bio .links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+section.bio .links a .bolinha {
+    background-color: var(--color-blue);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+section.bio .links a .texto {
+    margin: 0 0 0 20px;
+}
+
+section.bio .links a .texto p {
+    font-family: var(--regular);
+    font-size: 1rem;
+    color: var(--color-white);
+    margin: 0 0 0 20px;
+}
+
+section.bio .links a .texto h3 {
+    font-family: var(--bold);
+    font-size: 1rem;
+    color: var(--color-blue);
+    margin: 0 0 5px 0;
+}
+
+
+
